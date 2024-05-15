@@ -1,0 +1,33 @@
+.logo {
+  width: 60px;
+  height: auto;
+}
+.bg-navbar{
+  background: #5F5D9C !important;
+}
+.navbar {
+  background-color: #f8f9fa;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+}
+
+.navbar-brand, .nav-link {
+  color: #FFFFFF;
+}
+
+.nav-link {
+  margin-right: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover, .nav-link:focus {
+  color: #2B6CB0;
+  background-color: transparent;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .navbar-nav {
+    margin-top: 0.5rem;
+  }
+}
